@@ -3,11 +3,23 @@ tagtitle.js
 
 Tag Title is jquery plugin used to tag title attribute of component on image or any thing.
 
+it reads the title in the html element and convert that to tagtitle.
+
+sample :
+
+	    <div style="float:left">
+		        <img  src="img/nature1.jpg" alt="" title="Good Evening" />
+			<img  src="img/nature3.jpg" alt="" title="Beautiful Sun Set" />
+			<img  src="img/nature4.jpg" alt="" title="Nature !!" />		
+           </div>
+           
+ It reads title of element and create tagTitle.
+
+This enables title like below snap.
+
 ![demo](https://raw.github.com/uttesh/tagtitle/master/img/demo.png)
 
-tagtitle wrapper for adding tagtitle on any html element where title mention on any html element .
 
-This enables title like above snap.
 
 <h2>
 <a name="dependencies" class="anchor" href="#dependencies"><span class="mini-icon mini-icon-link"></span></a>Dependencies</h2>
@@ -20,13 +32,13 @@ This enables title like above snap.
 <a name="usage" class="anchor" href="#usage"><span class="mini-icon mini-icon-link"></span></a>Usage</h2>
 
             $("img").tagtitle({
-  			        position: "middle",
+  		position: "middle",
                 hideToolTip: false,
                 tagfontSize: "15"
              });
 			 
-			 $("#article_1").tagtitle({
-				        position: "top",
+	   $("#article_1").tagtitle({
+		position: "top",
                 hideToolTip: true,
                 tagfontSize: "15"
              });
@@ -43,7 +55,7 @@ This enables title like above snap.
 
 <p> "tagfontSize" attribute is default 15px, we can set according into requirement</p>
 
-
+<h3>
 <a name="license" class="anchor" href="#license"><span class="mini-icon mini-icon-link"></span></a>License</h3>
 
 <p>(The MIT license)</p>
