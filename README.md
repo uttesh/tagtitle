@@ -8,11 +8,11 @@ it reads the title in the html element and convert that to tagtitle.
 sample :
 
 	    <div style="float:left">
-		        <img  src="img/nature1.jpg" alt="" title="Good Evening" />
 			<img  src="img/nature3.jpg" alt="" title="Beautiful Sun Set" />
-			<img  src="img/nature4.jpg" alt="" title="Nature !!" />		
+			<img  src="img/nature4.jpg" alt="" title="Nature !!" />
+			<img  src="img/nature1.jpg" alt="" title="Good Evening" />
            </div>
-           
+   
  It reads title of element and create tagTitle.
 
 This enables title like below snap.
@@ -32,17 +32,17 @@ This enables title like below snap.
 <a name="usage" class="anchor" href="#usage"><span class="mini-icon mini-icon-link"></span></a>Usage</h2>
 
             $("img").tagtitle({
-  		position: "middle",
                 hideToolTip: false,
-                tagfontSize: "15"
+                tagfontSize: "15",
+                position: "middle"
              });
 			 
 	   $("#article_1").tagtitle({
-		position: "top",
                 hideToolTip: true,
                 tagfontSize: "15"
+                position: "top"
              });
-             
+         
 <p> We can change the position of tag title on element by "position" attribute</p>
 
 <ul>
