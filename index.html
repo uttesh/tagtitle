@@ -19,7 +19,7 @@
 
         <header>
           <h1>Tagtitle</h1>
-          <h2>Tag Title is jquery plugin used to tag the title attribute in your component on image or any thing.</h2>
+          <h2>Tag Title is jquery plugin used to tag the title attribute  on image or any html element.</h2>
         </header>
 
         <section id="downloads" class="clearfix">
@@ -40,10 +40,10 @@
 <p>sample :</p>
 
 <pre><code>    &lt;div style="float:left"&gt;
-            &lt;img  src="img/nature1.jpg" alt="" title="Good Evening" /&gt;
         &lt;img  src="img/nature3.jpg" alt="" title="Beautiful Sun Set" /&gt;
-        &lt;img  src="img/nature4.jpg" alt="" title="Nature !!" /&gt;     
-       &lt;/div&gt;
+        &lt;img  src="img/nature4.jpg" alt="" title="Nature !!" /&gt;
+        &lt;img  src="img/nature1.jpg" alt="" title="Good Evening" /&gt;
+        &lt;/div&gt;
 </code></pre>
 
 <p>It reads title of element and create tagTitle.</p>
@@ -51,6 +51,8 @@
 <p>This enables title like below snap.</p>
 
 <p><img src="https://raw.github.com/uttesh/tagtitle/master/img/demo.png" alt="demo"></p>
+
+
 
 <h2>
 <a name="dependencies" href="#dependencies"></a>Dependencies</h2>
@@ -61,15 +63,15 @@
 <a name="usage" href="#usage"></a>Usage</h2>
 
 <pre><code>        $("img").tagtitle({
-    position: "middle",
             hideToolTip: false,
-            tagfontSize: "15"
+            tagfontSize: "15",
+            position: "middle"
          });
 
    $("#article_1").tagtitle({
-    position: "top",
             hideToolTip: true,
             tagfontSize: "15"
+            position: "top"
          });
 </code></pre>
 
