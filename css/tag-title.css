@@ -1,0 +1,27 @@
+
+
+.tag-title {
+    position: absolute; 
+	padding :14px;
+	left: 0;
+    color:white;
+	background: rgba(0, 0, 0, 0.3); 
+}
+
+.tag-title-div {
+	position: relative;
+	margin-bottom: 20px;
+	
+}
+
+.tag-title-top {
+	top: 0%;
+}
+
+.tag-title-middle {
+	top: 35%;
+}
+
+.tag-title-bottom {
+	top: 70%;
+}

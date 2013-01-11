@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<title>Tag Title</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/tag-title.css" />
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+    <script src="js/tagtitle.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+        $(function() {
+            
+            $("img").tagtitle({
+				position: "middle",
+                hideToolTip: false,
+                tagfontSize: "15"
+             });
+			 
+			 
+			 $("#article_1").tagtitle({
+				position: "top",
+                hideToolTip: true,
+                tagfontSize: "15"
+             });
+			 
+			 $("#article_2").tagtitle({
+				position: "bottom",
+                hideToolTip: true,
+                tagfontSize: "15"
+             });
+            
+        });
+    </script>
+</head>
+
+<body>
+
+	<div id="page-wrap" style="margin-left:100px;margin-right:100px;margin-top:50px">
+	   
+	    <div style="float:left">
+		    <img  src="img/nature1.jpg" alt="" title="Good Evening" />
+			<img  src="img/nature3.jpg" alt="" title="Beautiful Sun Set" />
+			<img  src="img/nature4.jpg" alt="" title="Nature !!" />		
+         </div>
+
+        <div style="float:right">		 
+		
+				<div id="article_1" style="padding: 50px;width:400px;height:200px;background-color:rgb(65, 147, 211);border:1px solid rgb(65, 147, 211);" title="Amzanig I cluod aulaclty uesdnatnrd">
+	
+					<p> "I cdn'uolt blveiee taht I cluod aulaclty uesdnatnrd waht I was rdanieg: the phaonmneel pweor of the hmuan mnid. Aoccdrnig to a rseearch taem at Cmabrigde Uinervtisy, it deosn't mttaer in waht oredr the ltteers in a wrod are, the olny iprmoatnt tihng is taht the frist and lsat ltteer be in the rghit pclae. The rset can be a taotl mses and you can sitll raed it wouthit a porbelm. Tihs is bcuseae the huamn mnid deos not raed ervey lteter by istlef, but the wrod as a wlohe. Scuh a cdonition is arppoiatrely cllaed Typoglycemia .
+"Amzanig huh? Yaeh and you awlyas thguoht slpeling was ipmorantt."</p>
+	
+				</div>
+		
+		       <div id="article_2" style="padding: 50px;width:400px;height:200px;background-color:rgb(65, 147, 211);border:1px solid rgb(65, 147, 211);" title="Amzanig I cluod aulaclty uesdnatnrd">
+	
+					<p> "I couldn't believe that I could actually understand what I was reading: the phenomenal power of the human mind. According to a research team at Cambridge University, it doesn't matter in what order the letters in a word are, the only important thing is that the first and last letter be in the right place. The rest can be a total mess and you can still read it without a problem. This is because the human mind does not read every letter by itself, but the word as a whole. Such a condition is appropriately called Typoglycemia.
+"Amazing, huh? Yeah and you always thought spelling was important."</p>
+	
+				</div>
+        </div>		
+		
+		
+	</div>
+	
+
+
+</body>
+
+</html>
