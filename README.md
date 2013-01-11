@@ -60,7 +60,7 @@ This enables title like below snap.
 
 <p>(The MIT license)</p>
 
-<p>Copyright (c) 2013 Jacob Kelley</p>
+<p>Copyright (c) 2013 Uttesh Kumar</p>
 
 <p>Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
