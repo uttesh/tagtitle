@@ -5,7 +5,7 @@
         defaults: {
             hideToolTip: true,
             tagfontSize: "15",
-			position : "middle"
+	    position : "middle"
         }
     }
     
