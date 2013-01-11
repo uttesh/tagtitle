@@ -19,7 +19,7 @@ This enables title like below snap.
 
 ![demo](https://raw.github.com/uttesh/tagtitle/master/img/demo.png)
 
-
+<!-- <a target="_blank" href="https://raw.github.com/uttesh/tagtitle/master/sample.html">demo</a> -->
 
 <h2>
 <a name="dependencies" class="anchor" href="#dependencies"><span class="mini-icon mini-icon-link"></span></a>Dependencies</h2>
